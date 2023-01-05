@@ -61,14 +61,20 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
   - **Example for Mac**: '/Users/me/Documents/MATLAB/eeglab2022.1'
   - **Example for PC**: 'C:\Users\me\Documents\MATLAB\eeglab2022.1'
 
+
+
+
+
+
 ### Script: **GetParams.m**
 
-*Experiment name*
+*Parameters pertaining to experiment name*
+
 ```
 params.expname=' '; 
 params.trig_names={' ', ' ', ' ', ' '}; 
 ```
- - **Example experiment name**: 
+ - **Example**: 
 
      ```
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
@@ -81,7 +87,8 @@ params.lPass = []; %low pass filter in Hz, e.g. 45
 params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz, e.g. 2
 ```
 
-*Filtering parameters
+*Filtering parameters*
+
  - **Example filtering parameters**: 
 
      ```
@@ -90,7 +97,8 @@ params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz,
      params.lPass = 45 %in Hz
      params.hPass_ica = 2; in Hz
      ```
-*Timing parameters 
+     
+*Timing parameters*
 
 ```
 params.tmin=[]; 
@@ -115,6 +123,40 @@ params.additional_erp_str='';
      params.Analysis='stimulus_locked'; %must be set to 'stimulus_locked' or 'response_locked' depending on the desired analysis
      params.additional_erp_str='';
     ```
+
+*Channel rejection parameters*
+
+```
+params.thr1=[]; 
+params.ChanRejThresh=[]; 
+params.BadChanThresh=[]; 
+params.NumTrialsRemaining_thresh=[];
+```
+
+     **Example channel rejection parameters**
+
+     ```
+     params.thr1=150; %in microvolts 
+     params.ChanRejThresh=5; %in standard deviations 
+     params.BadChanThresh=.15; %in percentage (1=100%, .5 = 50%) 
+     params.NumTrialsRemaining_thresh=150; %will flag a particpant if they have fewer than this number of trials after all rejection procedures
+     ```
+
+*Misc. parameters*
+
+```
+params.RunICA=' '; 
+params.deschan=' ';
+params.descond= [];
+```
+
+**Example misc. parameters
+
+     ```
+     params.RunICA='y'; %set to 'y' or 'n' depending on whether or not you want to run ICA for data cleaning 
+     params.deschan='A1'; %desired channel for QC plotting. Must be named according to your cap's montage
+     params.descond= 1; %desired condition for QC plotting
+     ```
 
 
 ## Folder Structure
