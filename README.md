@@ -80,14 +80,14 @@ params.trig_names={' ', ' ', ' ', ' '};
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
      params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
      ```
+*Filtering parameters*
+
 ```
 params.desFs = []; %sampling rate in Hz, e.g. 512
 params.hPass = []; %high pass filter in Hz, e.g. 1
 params.lPass = []; %low pass filter in Hz, e.g. 45
 params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz, e.g. 2
 ```
-
-*Filtering parameters*
 
  - **Example filtering parameters**: 
 
