@@ -1,5 +1,5 @@
 # EEG_Processing_Pipeline
-A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG system. This pipeline is designed to process 64 channel, 128 channel, and 160 channel data.
+A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG system. This pipeline is designed to process 64 channel, 128 channel, and 160 channel data. If you have any questions, feel free to email them to me at kamywakim@gmail.com!
 
 ## Processing Steps Performed
 
