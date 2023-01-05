@@ -105,7 +105,7 @@ params.tmin=[];
 params.tmax=[]; 
 params.blmin=[]; 
 params.blmax=[]; 
-params.trigs={{'condition 3','condition 4','condition 5'},'condition 3','condition 4','condition 5'}; 
+params.trigs={{'','',''},'','','}; 
 params.ResponseCond=[]; 
 params.Analysis=' '; 
 params.additional_erp_str='';
@@ -121,7 +121,7 @@ params.additional_erp_str='';
      params.trigs={{'condition 3','condition 4','condition 5'},'condition 3','condition 4','condition 5'}; %triggers to be epoched as they appear in   your data. Should correspond to params.trigs set above.
      params.ResponseCond = 1; %trigger corresponding to button press response, e.g. 1
      params.Analysis='stimulus_locked'; %must be set to 'stimulus_locked' or 'response_locked' depending on the desired analysis
-     params.additional_erp_str='';
+     params.additional_erp_str='_baseline50ms';
     ```
 
 *Channel rejection parameters*
