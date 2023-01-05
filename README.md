@@ -26,7 +26,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 15. Save data
 16. Generate log file
 
-## Required Input Folder Structure
+## Input Folder Structure and Filenaming Conventions
 
 - My_Data **[Parent Directory]**
   - 1001 **[Subject ID]**
