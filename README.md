@@ -70,11 +70,11 @@ params.trig_names={' ', ' ', ' ', ' '};
 ```
  - **Example**: 
 
-```
-params.expname='Audio-Visual Speeded Reaction Time Task'; 
-params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
+     ```
+     params.expname='Audio-Visual Speeded Reaction Time Task'; 
+     params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
 
-```
+     ```
 
 params.desFs = []; %sampling rate in Hz, e.g. 512
 params.hPass = []; %high pass filter in Hz, e.g. 1
