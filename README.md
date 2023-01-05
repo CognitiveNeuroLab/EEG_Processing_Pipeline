@@ -210,11 +210,13 @@ params.descond= [];
       - 1001_hpf_ica.fig
       - 1001_IndivSubTopo.png
       - 1001_lpf.fig
-    - LogFiles
 - 1002 **[Subject ID]**
   - ...
   - ...
-   
+- LogFiles
+  - DATE_ProcessingLog_EXPRIMENT_NAME_Xsubs_OptionalString.txt [contents of command window]
+  - Log_Xsubs_OptionalString_DATE.mat [multi-sub log file]
+
 
 ### Notes
 
