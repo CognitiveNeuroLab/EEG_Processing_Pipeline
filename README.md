@@ -28,7 +28,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 
 ## Before running this code, edit these lines
 
-1. Script: **RUNME.m**
+### Script: **RUNME.m**
 
 ```
 addpath(genpath('PATH/TO/CODE/DIRECTORY'));
@@ -61,7 +61,7 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
   - **Example for Mac**: '/Users/me/Documents/MATLAB/eeglab2022.1'
   - **Example for PC**: 'C:\Users\me\Documents\MATLAB\eeglab2022.1'
 
-2. Script: **GetParams.m**
+### Script: **GetParams.m**
 
 *Experiment name*
 ```
