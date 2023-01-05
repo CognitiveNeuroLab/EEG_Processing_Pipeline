@@ -68,13 +68,13 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 
 ### Script: **GetParams.m**
 
-*Parameters pertaining to experiment name*
+**GetParams.m: Parameters pertaining to experiment name**
 
 ```
 params.expname=' '; 
 params.trig_names={' ', ' ', ' ', ' '}; 
 ```
- - **Example experiment naming parameters**: 
+ - *Example experiment naming parameters*: 
 
      ```
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
