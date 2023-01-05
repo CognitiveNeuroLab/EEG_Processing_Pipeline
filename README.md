@@ -188,8 +188,28 @@ params.descond= [];
       - 1001.mat [MAT file]
       - 1001.set [SET file]
     - 1001_mat_OptionalString
+      - 1001_resample_filter_chanrej_reref_ICAweightTransfer_BadCompRej.mat [MAT file, fully processed continuous data]
+      - 1001_resample_filter_chanrej_reref_ICAweightTransfer_BadCompRej.set [SET file, fully processed continuous data]
+      - 1001_resample_filter_chanrej_reref_ICAweightTransfer.mat
+      - 1001_resample_filter_chanrej_reref.mat
+      - 1001_resample_filter_chanrej.mat
+      - 1001_resample_filter.mat
+      - 1001_resample_filter4ica_chanrej_reref_ICA.mat
+      - 1001_resample_filter4ica_chanrej_reref.mat
+      - 1001_resample_filter4ica_chanrej.mat
+      - 1001_resample_filter4ica.mat
+      - 1001.mat
+      - 11001.set
     - 1001_erps_OptionalString
+      - 1001_epoched.mat [MAT file, fully processed epoched data]
     - 1001_plots
+      - 1001_electrode-name_condX.png
+      - 1001_all_ICs_topos_OptionalString.png
+      - 1001_bad_ICs_topos_OptionalString.png
+      - 1001_hpf_eeg.fig
+      - 1001_hpf_ica.fig
+      - 1001_IndivSubTopo.png
+      - 1001_lpf.fig
 
 ### Notes
 
