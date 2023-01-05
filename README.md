@@ -44,8 +44,8 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 ### Notes
 
 - Subject-level folder names must include only digits
-  - Valid folder name: 12345
-  - Invalid folder name: Sub12345
+  - *Valid folder name*: 12345
+  - *Invalid folder name*: Sub12345
 - BDF files will be concatenated in alphebetical order into a single .mat file
 
 ## Technical Information
