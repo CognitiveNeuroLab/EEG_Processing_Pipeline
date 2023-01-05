@@ -6,7 +6,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 2. EEGLab Toolbox
   - Download from here: https://sccn.ucsd.edu/eeglab/download.php
 
-## Before running, edit These Lines
+## Before running this code, edit these lines
 
 1. RUNME.m
 
@@ -18,8 +18,10 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 ```
 
 **PATH/TO/CODE/DIRECTORY**: The full path to the unzipped .zip file downloaded from this repository
+
   - Example for Mac: '/Users/me/Desktop/Preprocessing_Code'
   - Example for PC: 'C:\Users\me\Desktop\Preprocessing_Code'
+  - 
 **PATH/TO/DATA/DIR**: The full path to the parent directory containing your subject-level folders
   - Example for Mac: '/Users/me/Desktop/My_Data'
   - Example for PC: 'C:\Users\me\Desktop\My_Data'
