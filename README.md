@@ -9,10 +9,14 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 ## Edit These Lines
 
 1. RUNME.m
-```addpath(genpath('PATH/TO/CODE/DIRECTORY')) % replace with the path to the code directory. e.g. 'C:\Users\me\Desktop\Preprocessing_ForGithub'
-dirpath.ParentDir='PATH/TO/DATA/DIR'; %replace with path to parent directory containing subject-level folders, e.g. 'C:\Users\me\Desktop\my_experiment'
-FolderEnding='_OPTIONAL_DESCRIPTION_OF_ANALYSIS'; %e.g. '_stimulus_locked_data. Can also be left blank
-dirpath.EEGLabDir='PATH/TO/EEGLAB'; %e.g. 'C:\Users\me\Documents\MATLAB\eeglab2021.1'```
+
+```
+addpath(genpath('PATH/TO/CODE/DIRECTORY'));
+dirpath.ParentDir='PATH/TO/DATA/DIR'; 
+FolderEnding='_OPTIONAL_DESCRIPTION_OF_ANALYSIS'; 
+dirpath.EEGLabDir='PATH/TO/EEGLAB'; 
+
+```
 
 ## Processing Steps Performed
 
