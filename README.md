@@ -28,18 +28,18 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 
 ## Required Input Folder Structure
 
-- My_Data **[Parent Directory]
-  - 1001 **[Subject ID]
-    - 1001_1.bdf **[BDF file]
-    - 1001_2.bdf **[BDF file]
-    - 1001_3.bdf **[BDF file]
-  - 1002 **[Subject ID]
-    - 1002_1.bdf **[BDF file]
-    - 1002_2.bdf **[BDF file]
-    - 1002_3.bdf **[BDF file]
-    - 1002_4.bdf **[BDF file]
-  - 1003 **[Subject ID]
-    - 1003_1.bdf **[BDF file]
+- My_Data **[Parent Directory]**
+  - 1001 **[Subject ID]**
+    - 1001_1.bdf **[BDF file]**
+    - 1001_2.bdf **[BDF file]**
+    - 1001_3.bdf **[BDF file]**
+  - 1002 **[Subject ID]**
+    - 1002_1.bdf **[BDF file]**
+    - 1002_2.bdf **[BDF file]**
+    - 1002_3.bdf **[BDF file]**
+    - 1002_4.bdf **[BDF file]**
+  - 1003 **[Subject ID]**
+    - 1003_1.bdf **[BDF file]**
 
 ### Notes
 
