@@ -74,7 +74,7 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 params.expname=' '; 
 params.trig_names={' ', ' ', ' ', ' '}; 
 ```
- - **Example**: 
+ - **Example experiment naming parameters**: 
 
      ```
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
