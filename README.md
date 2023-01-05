@@ -64,11 +64,18 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 2. Script: **GetParams.m**
 
 ```
-params.expname='My_Science_Experiment'; %name your experiment!
-params.trig_names={'Trig1','Trig2','Trig3','Trig4'}; %change to strings that are meaningful to your task
-```
+params.expname=' '; 
+params.trig_names={' ', ' ', ' ', ' '}; 
 
 ```
+ - **Example**: 
+
+```
+params.expname='Audio-Visual Speeded Reaction Time Task'; 
+params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
+
+```
+
 params.desFs = []; %sampling rate in Hz, e.g. 512
 params.hPass = []; %high pass filter in Hz, e.g. 1
 params.lPass = []; %low pass filter in Hz, e.g. 45
