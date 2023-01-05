@@ -80,7 +80,7 @@ params.trig_names={' ', ' ', ' ', ' '};
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
      params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
      ```
-*Filtering parameters*
+**GetParams.m: Filtering parameters*
 
 ```
 params.desFs = []; %sampling rate in Hz, e.g. 512
@@ -89,7 +89,7 @@ params.lPass = []; %low pass filter in Hz, e.g. 45
 params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz, e.g. 2
 ```
 
- - **Example filtering parameters**: 
+ - *Example filtering parameters*: 
 
      ```
      params.desFS = 512; %in Hz
@@ -98,7 +98,7 @@ params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz,
      params.hPass_ica = 2; in Hz
      ```
      
-*Timing parameters*
+**GetParams.m: Timing parameters**
 
 ```
 params.tmin=[]; 
@@ -111,7 +111,7 @@ params.Analysis=' ';
 params.additional_erp_str='';
 ```
 
- - **Example timing parameters**: 
+ - *Example timing parameters*: 
 
      ```
      params.tmin=-100; %in ms
@@ -124,7 +124,7 @@ params.additional_erp_str='';
      params.additional_erp_str='_baseline50ms';
     ```
 
-*Channel rejection parameters*
+**GetParams.m: Channel rejection parameters**
 
 ```
 params.thr1=[]; 
@@ -133,7 +133,7 @@ params.BadChanThresh=[];
 params.NumTrialsRemaining_thresh=[];
 ```
 
- - **Example channel rejection parameters**: 
+ - *Example channel rejection parameters*: 
      
 
      ```
@@ -143,7 +143,7 @@ params.NumTrialsRemaining_thresh=[];
      params.NumTrialsRemaining_thresh=150; %will flag a particpant if they have fewer than this number of trials after all rejection procedures
      ```
 
-*Misc. parameters*
+**GetParams.m: Misc. parameters**
 
 ```
 params.RunICA=' '; 
@@ -151,7 +151,7 @@ params.deschan=' ';
 params.descond= [];
 ```
 
- - **Example misc. parameters**: 
+ - *Example misc. parameters*: 
 
      ```
      params.RunICA='y'; %set to 'y' or 'n' depending on whether or not you want to run ICA for data cleaning 
