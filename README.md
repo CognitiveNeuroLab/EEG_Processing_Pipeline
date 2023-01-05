@@ -1,6 +1,26 @@
 # EEG_Processing_Pipeline
 A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG system. This pipeline is designed to process 64 channel, 128 channel, and 160 channel data.
 
+## Processing Steps Performed
+
+1. Initialize / load data
+2. Resample
+   - Optional step
+4. Remove externall channels
+5. Get channel locations
+6. Line noise removal
+7. Filtering (high and low pass)
+8. Re-reference to common average
+9. ICA
+   - Optional step
+10. Epoch
+11. Baseline
+12. Trial Rejection
+13. Generate plots for quality control and manual inspection
+14. Finalize
+15. Save data
+16. Generate log file
+
 ## Requirements
 1. MATLAB
 2. EEGLab Toolbox
@@ -21,38 +41,23 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 
   - Example for Mac: '/Users/me/Desktop/Preprocessing_Code'
   - Example for PC: 'C:\Users\me\Desktop\Preprocessing_Code'
-  - 
+
 **PATH/TO/DATA/DIR**: The full path to the parent directory containing your subject-level folders
+
   - Example for Mac: '/Users/me/Desktop/My_Data'
   - Example for PC: 'C:\Users\me\Desktop\My_Data'
-**OPTIONAL_DESCRIPTION_OF_ANALYSIS**: An optional string to be appended to the end of your folder names. This can be helpful for organizing different analyses. Please include an underscore in the optional string. May be left blank
+  - 
+**OPTIONAL_DESCRIPTION_OF_ANALYSIS**: An optional string to be appended to the end of your folder names. This can be helpful for organizing different analyses. Please include an underscore in the optional string. May also be left blank.
+
   - Example: '_Stimulus_Locked_Analysis'
   - Example 2: '_HighPassFilter2Hz'
   - Example 3: '_Processed_By_Jane_Doe'
   - Example 4: '' 
-**PATH/TO/EEGLAB**: The full path to where EEGLab is installed
+  - 
+**PATH/TO/EEGLAB**: The full path to where EEGLab is installed.
+
   - Example for Mac: '/Users/me/Documents/MATLAB/eeglab2022.1'
   - Example for PC: 
-
-## Processing Steps Performed
-
-1. Initialize / load data
-2. Resample
-   - Optional step
-4. Remove externall channels
-5. Get channel locations
-6. Line noise removal
-7. Filtering (high and low pass)
-8. Re-reference to common average
-9. ICA
-   - Optional step
-10. Epoch
-11. Baseline
-12. Trial Rejection
-13. Generate plots for quality control and manual inspection
-14. Finalize
-15. Save data
-16. Generate log file
 
 ## Folder Structure
 
