@@ -39,25 +39,27 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 
 **PATH/TO/CODE/DIRECTORY**: The full path to the unzipped .zip file downloaded from this repository
 
-  - Example for Mac: '/Users/me/Desktop/Preprocessing_Code'
-  - Example for PC: 'C:\Users\me\Desktop\Preprocessing_Code'
+  - **Example for Mac**: '/Users/me/Desktop/Preprocessing_Code'
+  - **Example for PC**: 'C:\Users\me\Desktop\Preprocessing_Code'
 
 **PATH/TO/DATA/DIR**: The full path to the parent directory containing your subject-level folders
 
-  - Example for Mac: '/Users/me/Desktop/My_Data'
-  - Example for PC: 'C:\Users\me\Desktop\My_Data'
-  - 
+  - **Example for Mac**: '/Users/me/Desktop/My_Data'
+  - **Example for PC**: 'C:\Users\me\Desktop\My_Data'
+
+
 **OPTIONAL_DESCRIPTION_OF_ANALYSIS**: An optional string to be appended to the end of your folder names. This can be helpful for organizing different analyses. Please include an underscore in the optional string. May also be left blank.
 
-  - Example: '_Stimulus_Locked_Analysis'
-  - Example 2: '_HighPassFilter2Hz'
-  - Example 3: '_Processed_By_Jane_Doe'
-  - Example 4: '' 
-  - 
+  - **Example 1**: '_Stimulus_Locked_Analysis'
+  - **Example 2**: '_HighPassFilter2Hz'
+  - **Example 3**: '_Processed_By_Jane_Doe'
+  - **Example 4**: '' 
+
+
 **PATH/TO/EEGLAB**: The full path to where EEGLab is installed.
 
-  - Example for Mac: '/Users/me/Documents/MATLAB/eeglab2022.1'
-  - Example for PC: 
+  - **Example for Mac**: '/Users/me/Documents/MATLAB/eeglab2022.1'
+  - **Example for PC**: 'C:\Users\me\Documents\MATLAB\eeglab2022.1'
 
 ## Folder Structure
 
