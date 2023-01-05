@@ -133,7 +133,8 @@ params.BadChanThresh=[];
 params.NumTrialsRemaining_thresh=[];
 ```
 
-     **Example channel rejection parameters**
+ - **Example channel rejection parameters**: 
+     
 
      ```
      params.thr1=150; %in microvolts 
@@ -150,7 +151,7 @@ params.deschan=' ';
 params.descond= [];
 ```
 
-**Example misc. parameters
+ - **Example misc. parameters**: 
 
      ```
      params.RunICA='y'; %set to 'y' or 'n' depending on whether or not you want to run ICA for data cleaning 
