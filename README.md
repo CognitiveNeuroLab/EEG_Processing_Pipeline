@@ -199,9 +199,9 @@ params.descond= [];
       - 1001_resample_filter4ica_chanrej.mat
       - 1001_resample_filter4ica.mat
       - 1001.mat
-      - 11001.set
+      - 1001.set
     - 1001_erps_OptionalString
-      - 1001_epoched.mat [MAT file, fully processed epoched data]
+      - 1001_epoched_OptionalString.mat [MAT file, fully processed epoched data]
     - 1001_plots
       - 1001_electrode-name_condX.png
       - 1001_all_ICs_topos_OptionalString.png
@@ -210,6 +210,11 @@ params.descond= [];
       - 1001_hpf_ica.fig
       - 1001_IndivSubTopo.png
       - 1001_lpf.fig
+    - LogFiles
+- 1002 **[Subject ID]**
+  - ...
+  - ...
+   
 
 ### Notes
 
