@@ -63,11 +63,12 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 
 2. Script: **GetParams.m**
 
+*Experiment name*
 ```
 params.expname=' '; 
 params.trig_names={' ', ' ', ' ', ' '}; 
 ```
- - **Example**: 
+ - **Example experiment name**: 
 
      ```
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
@@ -80,7 +81,8 @@ params.lPass = []; %low pass filter in Hz, e.g. 45
 params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz, e.g. 2
 ```
 
- - **Example**: 
+*Filtering parameters
+ - **Example filtering parameters**: 
 
      ```
      params.desFS = 512; %in Hz
@@ -88,6 +90,8 @@ params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz,
      params.lPass = 45 %in Hz
      params.hPass_ica = 2; in Hz
      ```
+*Timing parameters 
+
 ```
 params.tmin=[]; 
 params.tmax=[]; 
@@ -99,7 +103,7 @@ params.Analysis=' ';
 params.additional_erp_str='';
 ```
 
- - **Example**: 
+ - **Example timing parameters**: 
 
      ```
      params.tmin=-100; %in ms
