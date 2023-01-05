@@ -51,3 +51,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 
 ## Technical Information
 This pipeline was coded in MATLAB (R2021b) on a PC platform running Windows 10 . The pipeline was also tested for Mac compatibility in MATLAB (R2022b) on a Mac Mini running Monterey (v 12.5.1)
+
+## Acknowledgements
+
+Inspired by pipelines by @mickcrosse and @DouweHorsthuis!
