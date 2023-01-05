@@ -80,7 +80,7 @@ params.trig_names={' ', ' ', ' ', ' '};
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
      params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
      ```
-**GetParams.m: Filtering parameters*
+**GetParams.m: Filtering parameters**
 
 ```
 params.desFs = []; %sampling rate in Hz, e.g. 512
