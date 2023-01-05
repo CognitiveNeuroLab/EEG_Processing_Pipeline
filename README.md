@@ -185,8 +185,8 @@ params.descond= [];
       - 1001_2.bdf [BDF file]
       - 1001_3.bdf [BDF file]
     - 1001_mat
-      - 1001.mat [MAT file]
-      - 1001.set [SET file]
+      - 1001.mat [MAT file, continuous raw data]
+      - 1001.set [SET file, continuous raw data]
     - 1001_mat_OptionalString
       - 1001_resample_filter_chanrej_reref_ICAweightTransfer_BadCompRej.mat [MAT file, fully processed continuous data]
       - 1001_resample_filter_chanrej_reref_ICAweightTransfer_BadCompRej.set [SET file, fully processed continuous data]
