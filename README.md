@@ -66,21 +66,52 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
 ```
 params.expname=' '; 
 params.trig_names={' ', ' ', ' ', ' '}; 
-
 ```
  - **Example**: 
 
      ```
      params.expname='Audio-Visual Speeded Reaction Time Task'; 
      params.trig_names={'All Stimului', 'Auditory', 'Visual', 'AudioVisual'}; 
-
      ```
-
+```
 params.desFs = []; %sampling rate in Hz, e.g. 512
 params.hPass = []; %high pass filter in Hz, e.g. 1
 params.lPass = []; %low pass filter in Hz, e.g. 45
 params.hPass_ica = []; %high pass filter to be applied to data before ICA in Hz, e.g. 2
 ```
+
+ - **Example**: 
+
+     ```
+     params.desFS = 512; %in Hz
+     params.hPass = 1 %in Hz
+     params.lPass = 45 %in Hz
+     params.hPass_ica = 2; in Hz
+     ```
+```
+params.tmin=[]; 
+params.tmax=[]; 
+params.blmin=[]; 
+params.blmax=[]; 
+params.trigs={{'condition 3','condition 4','condition 5'},'condition 3','condition 4','condition 5'}; 
+params.ResponseCond=[]; 
+params.Analysis=' '; 
+params.additional_erp_str='';
+```
+
+ - **Example**: 
+
+     ```
+     params.tmin=-100; %in ms
+     params.tmax=1000; %in ms
+     params.blmin=-99; %in ms
+     params.blmax=0; %in ms
+     params.trigs={{'condition 3','condition 4','condition 5'},'condition 3','condition 4','condition 5'}; %triggers to be epoched as they appear in   your data. Should correspond to params.trigs set above.
+     params.ResponseCond = 1; %trigger corresponding to button press response, e.g. 1
+     params.Analysis='stimulus_locked'; %must be set to 'stimulus_locked' or 'response_locked' depending on the desired analysis
+     params.additional_erp_str='';
+    ```
+
 
 ## Folder Structure
 
